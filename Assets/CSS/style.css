@@ -1,0 +1,13 @@
+* {
+  color: darkblue;
+}
+header {
+  color: black;
+  background-color: rgb(204, 203, 200);
+}
+button {
+  background-color: rgb(139, 238, 238);
+}
+table {
+  border: 2px black solid;
+}

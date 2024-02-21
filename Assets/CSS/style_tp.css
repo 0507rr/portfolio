@@ -1,0 +1,18 @@
+.root {
+  width: 1024px;
+  height: 100vh;
+  background-image: linear-gradient(315deg, #6cb5f1 0%, #dea9d5 74%);
+  display: grid;
+}
+header {
+  background-color: aliceblue;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  border: 5px #694964;
+}

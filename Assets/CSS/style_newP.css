@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100w;
+  height: 100vh;
+  background-image: linear-gradient(315deg, #b89cb674 50%, #ffe1dc 60%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.3fr;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0px 35px 0px 0px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(112, 8, 135);
+  font-size: 20px;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+  font-size: larger;
+  color: rgb(112, 8, 135);
+}
+header nav ul li a:hover {
+  color: rgb(136, 122, 200);
+  background-color: rgb(238, 240, 241);
+  width: 500px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px 30px 30px 30px;
+  font-size: larger;
+}
+section div div h1 {
+  color: rgb(112, 8, 135);
+}
+
+.dimimg {
+  width: 400px;
+  height: 315px;
+  border-radius: 25%;
+}
+footer {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+footer nav ul li {
+  list-style-type: none;
+  align-items: normal;
+  padding: 0px 35px 0px 0px;
+}
+footer nav ul li a {
+  text-decoration: none;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+footer nav ul li a {
+  color: rgb(112, 8, 135);
+  font-size: 25px;
+}
+
+footer ul li a:hover {
+  color: rgb(136, 122, 200);
+  background-color: rgb(238, 240, 241);
+  width: 500px;
+}
+.sectall {
+  text-align: left;
+}
+#Formations_et_diplomes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+  font-size: larger;
+}
+#Experiences_professionnelles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+  font-size: larger;
+}
+#Competences {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+  font-size: larger;
+}
+
+.retour {
+  color: rgb(112, 8, 135);
+  font-size: 25px;
+  text-decoration: none;
+}
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+  font-size: larger;
+}
+
+@media (max-width: 730px) {
+  section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+    font-size: medium;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: rgb(112, 8, 135);
+    font-size: 15px;
+  }
+}
+@media (max-width: 250px) {
+  section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    font-size: smaller;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: rgb(112, 8, 135);
+    font-size: 10px;
+  }
+}
+.container-fluid a {
+  color: rgb(81, 7, 98);
+  font-size: 25px;
+}
+.reseausos a {
+  color: rgb(112, 8, 135);
+  font-size: 25px;
+}
+.alefa button {
+  color: rgb(244, 233, 247);
+  background-color: rgb(112, 8, 135);
+  border: #a915ae;
+}
+.mesg h2 {
+  color: rgb(94, 23, 110);
+}
